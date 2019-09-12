@@ -1,6 +1,6 @@
 # Predicting Instructor Performance in Higher Education using Supervised Machine Learning Models 
 
-Four classiﬁcation techniques—decision tree algorithms, support vector machines, artiﬁcial neural networks, and discriminant analysis—are used to build classiﬁer models. 
+Four classiﬁcation techniques—decision tree algorithms, support vector machines, linear discriminant analysis and logistic regression—are used to build classiﬁer models. 
 
 Their performances are compared over a data set composed of responses of students to a real course evaluation questionnaire using accuracy, precision, recall, and speciﬁcity performance metrics. 
 
@@ -10,7 +10,7 @@ In addition, an analysis of the variable importance and receiver operating chara
 # Software tools
 Anaconda Navigator IDE  |  Spyder  |  Jupyter Notebook  |  ScikitLearn
 
-Turkiye Student Evaluation Dataset available in UCI Machine Learning Repository
+Dataset: Turkiye Student Evaluation Dataset available in UCI Machine Learning Repository
 
 # Citation
 
