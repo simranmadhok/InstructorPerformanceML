@@ -10,7 +10,7 @@ import pandas as pd
 
 MIN_AVG_SCORE = 3
 
-student_scores = pd.read_csv(r"C:\Users\Simran\Desktop\Anaconda Projects\turkiye_student_evaluation.csv")
+student_scores = pd.read_csv(r"turkiye_student_evaluation.csv")
 print("----------INITIAL STUDENT SCORE-------")
 print(student_scores)
 local = np.array(student_scores)
@@ -26,4 +26,4 @@ student_scores['PERFORMANCE'] = Satisfactory
 print("----------DATA PRE-PROCESSED STUDENT SCORE-------")
 print(student_scores)
 
-student_scores.to_csv(r'C:\Users\Simran\Desktop\Anaconda Projects\final_dataset.csv')
+student_scores.to_csv(r'final_dataset.csv')
